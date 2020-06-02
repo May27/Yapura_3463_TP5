@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../img/img_fondo_estadio.jpg");
+	background-position: center center;
+	
+}
+
+#contenedor{
+	width:960px;
+	margin:auto;
+	padding: auto;
+}
+
+/*Encabezado*/
+.site-header{
+	max-width: 100%;
+	padding: 15px;
+	text-align:center;
+	color:rgba(255,255,255,1);
+	background: rgba(11, 12, 14, 1);
+}
+
+/*Barra de Navegación */
+.barra-navegacion{
+	background: rgba(44, 42, 55, 1);
+}
+.barra-navegacion li{
+	display:inline-block;
+	list-style: none;
+	padding: 15px
+}
+.barra-navegacion a{
+	color: white;
+	text-decoration: none;
+}
+.barra-navegacion a:hover {
+	color: blue;
+}
+
+/*Sección de contenido*/
+
+/*Global*/
+#contenido{
+	width:700px;
+	height:500px;
+	float: left;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background: rgba(212, 213, 221, 0.85);
+	overflow: scroll;
+}
+
+/* Sección Home*/
+#contenido h2{
+	text-align: center;
+	color: rgba(106, 218, 246, 0.83);
+	background: rgba(40, 40, 47, 0.83);
+	padding: 5px;
+	margin: 5px;
+}
+.contenido-noticias{
+	float:left;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.noticia{
+	box-sizing:border-box;
+	width: 28.69%;
+	max-height:25%;
+	border: 2px solid rgba(66, 66, 66, 0.88);
+	background: rgba(255,255,255,1);
+	padding: 10px;
+	flex: none;
+	display:inline-block;
+	vertical-align: top;
+	margin: 20px 10px;
+}
+.noticia img{
+	width: 100%;
+}
+.contenido-texto{
+	width:80%;
+	text-align: justify;
+	margin:auto;
+	padding: auto;
+}
+.contenido-texto p{
+	margin-top: 10px;
+}
+
+/*Sección Fixture y tabla de resultados*/
+
+table{
+	margin: auto;
+	padding:auto;
+	margin-top: 30px;
+}
+th,td{
+	padding: 10px 10px;
+	vertical-align: middle;
+}
+table tr img{
+	width: 30px;
+	height: 30px;
+	position:relative;
+  	left:initial;	
+}
+
+/*Sección de historia de los Equipos*/
+.contenido-equipos{
+	width:680px;
+	height:auto;
+	margin: 30px 0px;
+}
+.equipos{
+	width:600px;
+	margin: auto;
+	padding:auto;
+}
+
+.equipos img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	background: rgba(212, 213, 221, 0.85);
+}
+.equipos h4{
+	text-transform: uppercase;
+	padding: 10px;
+	background: rgba(75, 157, 175, 0.57);
+}
+.equipos p{
+	with: 430px;
+	height: 112px;
+	text-align: justify;
+	background: rgba(75, 157, 175, 0.57);
+}
+
+/*Contenedor de Auspiciantes (aside)*/
+aside{
+	width:250px;
+	height:500px;
+	float: right;
+	background: rgba(212, 213, 221, 0.85);
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+}
+aside h3{
+	margin: 5px;
+	margin-bottom: 35px;
+	padding: 5px;
+	background: rgba(40, 40, 47, 0.83);
+	color: rgba(106, 218, 246, 0.83);
+	
+}
+aside img{
+	width: 70%;
+	height: 18%;
+}
+
+/*Pie de página (Footer)*/
+footer{
+	clear:both;
+	width:100%;
+	text-align: center;
+	background: rgba(11, 12, 14, 1);
+	padding: 10px 0px;
+	color: rgba(255,255,255,1);
+}
